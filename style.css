@@ -1,0 +1,38 @@
+/* 
+Author: Raynna Almeida
+Date: 2025-05-12
+Description: Odontologia - CSS - MicroSaas
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 64%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 0px 24px; /* cima, direita - baixo, esquerda  */
+    /* padding segue o sentido horário: cima, direita, baixo esquerda. */
+    /* outra forma de fazer: padding: 0px 24px 0px 24px;*/
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header span {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+
+.header span b {
+    color: #14B7A5;
+    font-weight: bold;
+    display: flex;
+}
